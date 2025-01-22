@@ -1,11 +1,10 @@
-import styles from "./Button.module.css";
-import style from "./TodoItem.module.css";
+import styles from "./TodoItem.module.css";
 
 export function ToDoItem({ text, done, onClickDeleteItem, onClickDoneItem }) {
     return (
         <>
-            <li className={style.item}>
-                <p className={done && style.done}>{text}</p>
+            <li className={styles.item}>
+                <p className={done && styles.done}>{text}</p>
                 <div>
                     {!done && (
                         <button
