@@ -1,4 +1,4 @@
-import styles from "./TodoItem.module.css";
+import styles from "./ToDoItem.module.css";
 
 export function ToDoItem({ text, done, onClickDeleteItem, onClickDoneItem }) {
     return (
