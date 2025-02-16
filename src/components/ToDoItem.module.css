@@ -11,6 +11,7 @@
 .item:first-child {
     margin-top: 20px;
 }
+
 .done {
     text-decoration: line-through;
 }
